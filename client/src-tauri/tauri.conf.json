@@ -1,0 +1,9 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "History Guesser",
+  "version": "0.1.0",
+  "identifier": "com.historyguesser.app",
+  "build": { "frontendDist": "../dist", "devUrl": "http://localhost:5173" },
+  "app": { "windows": [{ "title": "History Guesser", "width": 1600, "height": 900 }] },
+  "bundle": { "active": true, "targets": ["nsis"], "icon": ["icons/icon.ico"] }
+}
